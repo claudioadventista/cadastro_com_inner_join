@@ -1,0 +1,154 @@
+html, body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    width:100%;
+}
+.container{
+    width:98%;
+    margin-left:1%;
+}
+.tabela_menus{
+    width:100%;
+    margin:0 auto; 
+}
+.tabela1{
+    background-color: #d4b44b;
+    padding-bottom:15px; 
+}
+.tabela2{
+    background-color: #eecf6b; 
+    padding-bottom:15px;
+}
+.tabela3{
+    background-color:#f1de9f; 
+    padding-bottom:5px;
+}
+.tabela4{
+    background-color: #e7ddba; 
+    padding-bottom:15px;
+}
+.tabela5{
+    background-color: #dff3a9; 
+    padding-bottom:15px;
+}
+.funcoes{
+    background-color: #f7d5a9; 
+    padding-bottom:15px;
+}
+.td{
+    padding-bottom:15px;
+}
+.tabela_menus tr:nth-child(odd){
+    background-color: #ffc;
+}
+.tabela_menus tr:nth-child(even){
+    background-color: #ffa;
+}
+.tabela_menus td{
+    padding-left:5px;
+}
+.botao{
+    border:solid 1px #999;
+    min-width:100px;
+    height:30px;
+    padding:5px 10px;
+    background:#bbb;
+    cursor:pointer;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:14px;
+    color:#000;
+    border-radius:4px;
+}
+.cadastro{
+    background:lightgreen;
+}
+.but-azul{
+    background:lightblue;
+}
+.but-vermelho{
+    background:pink;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+th, table{
+    border:none;
+}
+td{
+    border-color:#666;
+}
+.os-form{
+    width:80px;
+}
+.OS{
+    width:200px;  
+  
+}
+.nome-form{
+    width:99.5%;
+}
+.telefone-form{
+    width:99%;
+}
+.cpf-form{
+    width:135px;
+}
+.data-form{
+    width:220px;
+}
+
+#verifica{
+    visibility:hidden;
+}
+.pesquisa{
+    position:relative;
+    background:#ffa;
+    width:96%;
+    padding:5px 2% 0 2%;
+    margin:0 auto;
+    border:solid 1px #ffa;
+    
+}
+#div_formulario{
+    display:none;
+    border-bottom:solid 1px #f3e2a9;
+    background:#f3e2a9;
+    
+}
+#cpf{
+    width:300px;
+}
+td{
+    border:none;
+}
+.textarea_material {
+    resize:none; 
+}
+.titulo{
+width:100%;
+background:green;
+color:white;
+text-align:center;
+font-weight:bold;
+}
+#buscaCadastro{
+position:absolute;
+margin-left:65%;
+top:25px;
+}
+.texto{
+float:right;
+margin-right:180px;
+}
+#buscaCad{
+    width:300px;
+}
+.orcamento{
+    width:100px;
+}
+#novoAparelho, #novaMarca, #modelo, #numeroSerie{
+    text-transform: uppercase;
+}
+
